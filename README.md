@@ -1,8 +1,3 @@
-<title>Governo de Ucai'ne</title>
-
-<meta property="og:title" content="Governo de Ucai'ne">
-
-
 <center>
 <h1 style="font-size: 50px">Governo de Ucai'ne</h1>
 
