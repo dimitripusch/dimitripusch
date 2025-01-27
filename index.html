@@ -1,1 +1,55 @@
-<h1>Governo de Ucai'ne</h1>
+<head>
+    <title>Governo de Ucai'ne</title>
+    <style>
+        main {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-block: 40px;
+        }
+
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+
+            a {
+                border: 2px solid #ff9e63;
+                background-color: transparent;
+                height: 30px;
+                width: 100%;
+                color: #000;
+                text-decoration: none;
+
+                &:hover {
+                    background-color: #ff9e63;
+                }
+
+                &.active {
+                    background-color: #ff9e63;
+                    color: #fff;
+
+                    &:hover {
+                        text-decoration: underline 2px #fff;
+                    }
+                }
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>
+            Governo de Ucai'ne
+        </h1>
+        <div>
+            <a href="https://ucaine.vercel.app/">Website</a>
+            <a href="https://ucaine.vercel.app/gov/cidadania" class="active">Obter Cidadania</a>
+            <a href="https://ucaine.vercel.app/contato">Contato</a>
+            <a href="https://ucaine.vercel.app/gov/constituicao">Constituição</a>
+        </div>
+    </main>
+</body>
